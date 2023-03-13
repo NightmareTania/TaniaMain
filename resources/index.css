@@ -1,0 +1,116 @@
+
+
+header{
+position: relative;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:violet;
+text-align: center;
+background-color: antiquewhite;
+}
+
+.menu{
+background-color:burlywood;
+display: inline;
+border-style: inset;
+position: relative;
+right: 43%;
+}
+
+a{
+color:hotpink;
+text-decoration: solid;
+}
+
+
+.Left-Section{
+position: absolute;
+background-color:antiquewhite; 
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+width: 25%;
+margin-top: 1.5%;
+}
+
+.Left-Content{
+position: relative;
+background-color:burlywood;
+margin: 2%;
+padding: 35px; 
+}
+.Foto1{
+position:relative;
+left: 25%;
+}
+
+.Right-Section{
+position: relative;
+width: 55%;
+left: 40%;
+background-color:antiquewhite;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin: 2%;
+}
+
+.P1{
+background-color:burlywood;
+margin: 2%;
+padding: 35px;
+}
+
+.P2{
+    background-color:burlywood;
+    margin: 2%;
+    padding: 15px;
+}
+.Foto3{
+position: relative;
+left: 70%;
+top: 20%;
+}
+
+.P3{
+    background-color:burlywood;
+    margin: 2%;
+    padding: 35px;
+}
+
+footer{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:violet;
+text-align: center;
+background-color: antiquewhite;
+top: 100%;
+}
+
+@media only screen and(max-width:900px){
+    .menu{
+        background-color:burlywood;
+        display: inline;
+        border-style: inset;
+        }
+        .Left-Section{
+            position: absolute;
+            background-color:antiquewhite; 
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            width: 100%;
+            }
+            .Right-Section{
+                position: relative;
+                width: 100%;
+                left: 10%;
+                background-color:antiquewhite;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                margin: 2%;
+                }
+                footer{
+                    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    color:violet;
+                    text-align: center;
+                    background-color: antiquewhite;
+                    top: 100%;
+                    }
+
+}
+
+
+
+
